@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#quote-box{
+
+    width: 40%;
+    height:auto;
+    margin:150px auto;
+    border-radius: 10px;
+    padding:60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+}
+#text{
+    font-family: 'Dancing Script', cursive;
+    display:inline-block ;
+    font-size:30px;
+    font-weight: bold;
+}
+#author{
+    display: block;
+    margin-top:30px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size:x-large;
+}
+.footer{
+   text-align: center;
+    display: block;
+   
+
+}
+#new-quote{
+   position: absolute;
+   display: block;
+   bottom:  40px;
+   right: 40px;
+   text-align: right;
+   padding:  5px 20px;
+   border: none;
+   border-radius: 3px ;
+   color: white;
+   text-transform:uppercase;
+}
+#tweet-quote{
+    position: absolute;
+    display: block;
+    bottom:  40px;
+   left: 40px;
+   
+}
